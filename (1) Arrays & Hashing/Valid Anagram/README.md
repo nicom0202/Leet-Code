@@ -40,3 +40,11 @@ Sorting
 
 🔹Solution🔹
 ---------------------------------------------------------------------------------
+
+(1) create a list of size 26 named letters(index 0 representing 'a' and index 25 representing 'z')
+
+(2) iterate over string1 and string2 (assuming at this point they are the same size)
+    (a) string1[i]++
+    (b) string2[i]--
+
+(3) iterate over letters to make sure each index has value 0 (aka it's an anagram)
