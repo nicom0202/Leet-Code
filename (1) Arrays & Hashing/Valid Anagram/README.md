@@ -40,9 +40,3 @@ Sorting
 
 🔹Solution🔹
 ---------------------------------------------------------------------------------
-Create a set() in python.
-Iterate over all elements. 
-    (a) if element is in set(), return true
-    (b) else, insert element in set
-
-return false
