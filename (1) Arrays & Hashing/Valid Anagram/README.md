@@ -48,3 +48,8 @@ Sorting
     (b) string2[i]--
 
 (3) iterate over letters to make sure each index has value 0 (aka it's an anagram)
+
+🔹Run-Time🔹
+---------------------------------------------------------------------------------
+O(n) such that n is the size of larger string
+Why? - Iterate over s and t once and iterate over letters once. Therefore O(n)+O(m)
