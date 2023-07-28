@@ -46,3 +46,9 @@ Iterate over all elements.
     (b) else, insert element in set
 
 return false
+
+🔹Run-Time🔹
+---------------------------------------------------------------------------------
+O(n)
+Why? - If all ints are unique then the for loop with iterate over all ints therefore it'll
+iterate over n ints. 
