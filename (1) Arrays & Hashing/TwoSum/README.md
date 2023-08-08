@@ -52,11 +52,11 @@ the map difference. If it is then return the current i and the value of differnc
 
 🔹Solution🔹
 ---------------------------------------------------------------------------------
-(1) create a map called difference
-(2) iterate over nums
-    (i) check if target - nums[i]  in difference
-        (a) if yes, return the indices
-        (b) if no, add nums[i] to difference (aka difference[nums[i]] =  i)
+    (1) create a map called difference
+    (2) iterate over nums
+        (i) check if target - nums[i]  in difference
+            (a) if yes, return the indices
+            (b) if no, add nums[i] to difference (aka difference[nums[i]] =  i)
 🔹Run-Time🔹
 ---------------------------------------------------------------------------------
 O(n) because the map has insertion/lookup time of O(1) and the worst case would be to iterate over the entire
