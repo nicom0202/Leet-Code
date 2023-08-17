@@ -1,4 +1,4 @@
-# 🔴 isPalindrome 🔴
+# 🔴 Two Sum - Sorted Array 🔴
 
 ## Level: Medium 🟧
 
